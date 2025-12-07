@@ -13,6 +13,7 @@ console.log(soma);
 // Incremente o número 5 e retorne o seu valor incrementado
 var incremento = 5;
 console.log(++incremento);
+console.log(incremento++);
 // Como dividir o peso por 2?
 var numero = +"80" / 2;
 var unidade = "kg";
