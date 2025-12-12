@@ -15,6 +15,13 @@ console.log(animais.attributes["data-texto"]);
 
 const img = document.querySelector("img");
 
-constsrcImg = img.getAttribute
+constsrcImg = img.getAttribute;
 
-console.log()
+console.log();
+
+const carro = {
+  portas: 4,
+  andar: function (km) {
+    console.log(`andou ${km}`);
+  },
+};
