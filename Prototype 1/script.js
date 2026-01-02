@@ -24,3 +24,11 @@ const andre = new Pessoa("Andre", 20);
 
 const pais = "Brasil";
 const cidade = new String("Rio");
+
+const listaAnimais = ["cachorro, gato, macaco"];
+
+const lista = document.querySelectorAll("li");
+
+// Transforma em uma array
+
+const listaArray = Array.prototype.slice.call(lista);
