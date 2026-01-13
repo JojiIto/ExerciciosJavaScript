@@ -13,11 +13,12 @@ const agua = new String("agua");
 // const frase = "Amelhor linguagem é";
 // const linguagem = "";
 
-
-const fruta = 'Banana';
-const listaFrutas = 'Melancia, Banana, Laranja';
+const fruta = "Banana";
+const listaFrutas = "Melancia, Banana, Laranja";
 
 listaFrutas.includes(fruta); // true
 fruta.includes(listaFrutas); // false
 
-console.log(frutas.includes(fruta, 14))
+console.log(frutas.includes(fruta, 14));
+
+const arrayLista = ListaItens.split(",");
